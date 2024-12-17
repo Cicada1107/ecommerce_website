@@ -1,0 +1,5 @@
+# Force LF line endings for Python and config files
+*.py text eol=lf
+Pipfile eol=lf
+Pipfile.lock eol=lf
+*.sh eol=lf
