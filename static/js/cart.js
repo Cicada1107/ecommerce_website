@@ -47,10 +47,10 @@ function addCookieItem(productId, action){
 		}
 	}
 	if(action == 'remove'){
-		cart[prductId]['quantity'] -= 1;
+		cart[productId]['quantity'] -= 1;
 		
-		if(cart[prductId]['quantity'] <= 0){
-			delete cart['productId'];
+		if(cart[productId]['quantity'] <= 0){
+			delete cart[productId];
 		}
 	}
 	console.log('CART:', cart);
